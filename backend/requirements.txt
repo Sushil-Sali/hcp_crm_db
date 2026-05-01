@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+langgraph
+langchain-groq
+pydantic
+python-dotenv
