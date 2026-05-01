@@ -39,13 +39,8 @@ This project is an AI-first Customer Relationship Management (CRM) module design
    ```bash
    pip install -r requirements.txt
    ```
-4. Configure Environment Variables:
-   Create a `.env` file in the `backend/` folder:
-   ```env
-   GROQ_API_KEY=your_groq_api_key_here
-   DATABASE_URL=sqlite:///./sql_app.db
-   ```
-5. Run the server:
+
+4. Run the server:
    ```bash
    uvicorn main:app --reload
    ```
